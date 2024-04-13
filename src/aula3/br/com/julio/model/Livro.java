@@ -1,14 +1,13 @@
-package aula3;
+package aula3.br.com.julio.model;
 
-import aula2.Editora;
-import aula2.TipoCapaEnum;
+import aula3.br.com.julio.enums.TipoCapaEnum;
 
 public class Livro {
-    String titulo, resumo, autor;
+    protected String titulo, resumo, autor;
     private double preco;
-    int paginas;
+    private int paginas;
     private TipoCapaEnum tipoCapa;
-    Editora editora;
+    public Editora editora;
 
     static final double PRECO_CAPA_PERSONALIZADA = 20.0;
     static final double PRECO_CAPA_DURA = 10.0;
@@ -17,32 +16,39 @@ public class Livro {
         this.tipoCapa = TipoCapaEnum.COMUM;
     }
 
-    public Livro(String titulo, String resumo, String autor, double preco, int paginas) {
-        this.titulo = titulo;
-        this.resumo = resumo;
-        this.autor = autor;
-        this.preco = preco;
-        this.paginas = paginas;
-        this.tipoCapa = TipoCapaEnum.COMUM;
-    }
-
-    public Livro(String titulo, String resumo, String autor, double preco, int paginas, TipoCapaEnum tipoCapa) {
-        this.titulo = titulo;
-        this.resumo = resumo;
-        this.autor = autor;
-        this.preco = preco;
-        this.paginas = paginas;
-        this.tipoCapa = tipoCapa;
-
-        atualizarPrecoComCapa();
-    }
-
     public Livro(TipoCapaEnum tipoCapa) {
         this.tipoCapa = tipoCapa;
     }
 
+    public void setTitulo(String titulo) {
+        this.titulo = titulo;
+    }
+
+    public void setResumo(String resumo) {
+        this.resumo = resumo;
+    }
+
+    public void setAutor(String autor) {
+        this.autor = autor;
+    }
+
+    public void setPreco(double preco) {
+        this.preco = preco;
+        atualizarPrecoComCapa();
+    }
+
+    public void setPaginas(int paginas) {
+        this.paginas = paginas;
+    }
+
+    public void setTipoCapa(TipoCapaEnum tipoCapa) {
+        this.tipoCapa = tipoCapa;
+        atualizarPrecoComCapa();
+    }
+
     public void exibir() {
-        System.out.println("Autor: "+this.autor+"\n"+
+        System.out.println("\n=============== INFO. LIVRO ===============\n"+
+                "Autor: "+this.autor+"\n"+
                 "Titulo: "+this.titulo+"\n"+
                 "Resumo: "+this.resumo+"\n"+
                 "Preço: "+obterPrecoFormatado()+"\n"+
