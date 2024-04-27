@@ -31,7 +31,7 @@ public class CadastroLivros {
         favoritoDigital.setTipoCapa(TipoCapaEnum.PERSONALIZADA);
         favoritoDigital.setPreco(60.45);
         favoritoDigital.editora = harperCollins;
-        favoritoDigital.setMarcaDAgua("julio@gmail.com");
+        favoritoDigital.setMarcaDAgua("aula4.br.com.julio@gmail.com");
         //favoritoDigital.aplicarDesconto(0.10);
 
         favoritoDigital.exibir();
