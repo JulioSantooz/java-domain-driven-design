@@ -1,0 +1,30 @@
+09/00/2024 23:00:18 - INFO - ===========> INÍCIO DA EXECUÇÃO DO REGISTRO DE LIVROS <===========
+09/00/2024 23:00:18 - INFO - Aplicação de desconto - Fim de ano
+09/00/2024 23:00:18 - INFO - Item adicionado no carrinho
+09/00/2024 23:00:18 - INFO - Aplicação de desconto - Fim de ano
+09/00/2024 23:00:18 - INFO - Item adicionado no carrinho
+09/00/2024 23:00:18 - INFO - Item adicionado no carrinho
+09/00/2024 23:00:18 - INFO - Aplicação de desconto - Fim de ano
+09/00/2024 23:00:18 - INFO - Item adicionado no carrinho
+09/00/2024 23:00:18 - INFO - Total: R$ 210.0
+09/00/2024 23:00:18 - INFO - ===========> FIM DA EXECUÇÃO DO REGISTRO DE LIVROS <===========
+09/01/2024 23:01:56 - INFO - ===========> INÍCIO DA EXECUÇÃO DO REGISTRO DE LIVROS <===========
+09/01/2024 23:01:56 - INFO - Aplicação de desconto - Fim de ano
+09/01/2024 23:01:56 - INFO - Item adicionado no carrinho
+09/01/2024 23:01:56 - INFO - Aplicação de desconto - Fim de ano
+09/01/2024 23:01:56 - INFO - Item adicionado no carrinho
+09/01/2024 23:01:56 - INFO - Item adicionado no carrinho
+09/01/2024 23:01:56 - INFO - Aplicação de desconto - Fim de ano
+09/01/2024 23:01:56 - INFO - Item adicionado no carrinho
+09/01/2024 23:01:56 - INFO - Total: R$ 210.0
+09/01/2024 23:01:56 - INFO - ===========> FIM DA EXECUÇÃO DO REGISTRO DE LIVROS <===========
+09/02/2024 23:02:31 - INFO - ===========> INÍCIO DA EXECUÇÃO DO REGISTRO DE LIVROS <===========
+09/02/2024 23:02:31 - INFO - Aplicação de desconto - Fim de ano
+09/02/2024 23:02:31 - INFO - Item adicionado no carrinho
+09/02/2024 23:02:31 - INFO - Aplicação de desconto - Fim de ano
+09/02/2024 23:02:31 - INFO - Item adicionado no carrinho
+09/02/2024 23:02:31 - INFO - Item adicionado no carrinho
+09/02/2024 23:02:31 - INFO - Aplicação de desconto - Fim de ano
+09/02/2024 23:02:31 - INFO - Item adicionado no carrinho
+09/02/2024 23:02:31 - INFO - Total: R$ 210.0
+09/02/2024 23:02:31 - INFO - ===========> FIM DA EXECUÇÃO DO REGISTRO DE LIVROS <===========
